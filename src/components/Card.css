@@ -1,0 +1,42 @@
+.show {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.show h3 {
+  height: 11%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: darkblue;
+}
+
+.show p {
+  margin: 0.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.show img {
+  width: inherit;
+  height: 250px;
+  margin: 8px 0;
+}
+
+.show a {
+  background-color: #0077cc;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.show a:hover {
+  background-color: #0066b2;
+}
