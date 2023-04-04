@@ -1,31 +1,42 @@
-.show {
+.card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(52, 52, 52);
   border-radius: 10px;
   padding: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
 }
 
-.show h3 {
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card:active {
+  transform: scale(0.95);
+}
+
+.card h3 {
   height: 11%;
   margin-top: 5px;
   margin-bottom: 5px;
   color: darkblue;
 }
 
-.show p {
-  margin: 0.5rem;
+.card p {
+  margin: 0.25rem;
   overflow: hidden;
   white-space: nowrap;
+  line-height: 2rem;
 }
 
-.show img {
+.card img {
   width: inherit;
-  height: 250px;
-  margin: 8px 0;
+  height: 300px;
+  margin: 8px 0 0 0;
 }
 
-.show a {
+.card a {
   background-color: #0077cc;
   color: #fff;
   text-align: center;
@@ -37,6 +48,6 @@
   margin-top: 10px;
 }
 
-.show a:hover {
+.card a:hover {
   background-color: #0066b2;
 }
